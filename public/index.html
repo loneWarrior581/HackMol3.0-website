@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="build/images/logo.svg">
+
+
+    <!-- HTML Meta Tags -->
+    <title>HackMoL3.0</title>
+    <meta name="description"
+        content="HackMol3.0 is a community - focused 36 Hours Long Virtual Hackathon organized by DSC NIT Jalandhar, designed especially for the needs of the community itself. Whether you are a beginner or expert ,here is a perfect chance to show your skills and witness a competitive yet inclusive developer community around it.">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="HackMoL3.0">
+    <meta itemprop="description"
+        content="HackMol3.0 is a community - focused 36 Hours Long Virtual Hackathon organized by DSC NIT Jalandhar, designed especially for the needs of the community itself. Whether you are a beginner or expert ,here is a perfect chance to show your skills and witness a competitive yet inclusive developer community around it.">
+    <meta itemprop="image" content="build/images/meta.jpg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://hackmol.tech">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HackMoL3.0">
+    <meta property="og:description"
+        content="HackMol3.0 is a community - focused 36 Hours Long Virtual Hackathon organized by DSC NIT Jalandhar, designed especially for the needs of the community itself. Whether you are a beginner or expert ,here is a perfect chance to show your skills and witness a competitive yet inclusive developer community around it.">
+    <meta property="og:image" content="build/images/meta.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HackMoL3.0">
+    <meta name="twitter:description"
+        content="HackMol3.0 is a community - focused 36 Hours Long Virtual Hackathon organized by DSC NIT Jalandhar, designed especially for the needs of the community itself. Whether you are a beginner or expert ,here is a perfect chance to show your skills and witness a competitive yet inclusive developer community around it.">
+    <meta name="twitter:image" content="build/images/meta.jpg">
+
+    <!-- Meta Tags End Here-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="build/css/tailwind.css" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<style>
+    .devfolio-button {
+        margin: 0 0 16px 0;
+    }
+</style>
+
+<body class="bg-gray-900">
+
+    <!-- NAVBAR SECTION STARTS-->
+
+    <header class="text-gray-400 bg-gray-900 font-body sticky top-0 lg:bg-opacity-50 0 z-10">
+        <div class="flex items-center justify-between flex-wrap  fixed w-full  top-0">
+
+            <div class="block lg:hidden mt-2 ml-2">
+                <button id="nav-toggle" class="flex items-center px-3 py-3 rounded-full text-white bg-pink-600 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        width="24" height="24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="container bg-gray-900 mx-auto hidden lg:flex flex-wrap p-5 flex-col md:flex-row items-center "
+                id="nav-content">
+                <nav class="flex lg:w-2/3 flex-wrap items-center text-base md:ml-auto">
+                    <a href="#about" class="mr-5 hover:text-white">About</a>
+                    <a href="#rules" class="mr-5 hover:text-white">Rules</a>
+                    <a href="#schedule" class="mr-5 hover:text-white">Schedule</a>
+                    <a href="#prizes" class="mr-5 hover:text-white">Prizes</a>
+                    <a href="#sponsors" class="mr-5 hover:text-white">Sponsors</a>
+                    <a href="#team" class="mr-5 hover:text-white">Team & Mentors</a>
+                    <a href="#faq" class="mr-5 hover:text-white">FAQ</a>
+                    <a href="#contact" class="mr-5 hover:text-white">Contact</a>
+                </nav>
+                <div class="lg:w-1/3 inline-flex lg:justify-end ml-5 lg:ml-0">
+                    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                        <a href="https://www.facebook.com/DSCNITJ/" target="_blank"
+                            class="text-gray-400 hover:text-pink-400">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.instagram.com/dscnitj/" target="_blank"
+                            class="ml-3 text-gray-400 hover:text-pink-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/dscnitj/" target="_blank"
+                            class="ml-3 text-gray-400 hover:text-pink-400">
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path stroke="none"
+                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                </path>
+                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- NAVBAR SECTION ENDS-->
+
+    <!-- HERO SECTION STARTS-->
+
+    <section class="text-gray-400 bg-gray-900 font-body hero" id="hero">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:order-first order-2 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-6xl text-3xl font-black text-white ">HackMoL3.0
+                </h1>
+                <h2 class="text-xl text-pink-400 tracking-widest font-medium title-font mb-4">Date not decided
+                </h2>
+
+                <p class="mb-8 leading-relaxed">A 36-hour long virtual hackathon by <span class='text-pink-400'> DSC NIT
+                        Jalandhar</span> with lots of exciting prizes!
+                </p>
+                <div class="flex-initial md:flex justify-center">
+
+                    <div class="devfolio-button">
+                        <div class="apply-button" data-hackathon-slug="hackmol" data-button-theme="light"
+                            style="height: 36px; width: 248px"></div>
+                    </div>
+                    <div>
+                        <a href="https://discord.gg/cdDBB5YyyJ" target="_blank"
+                            class="ml-0 md:ml-4  justify-center items-center flex text-gray-400 bg-gray-800 border-0 py-2 px-12 font-semibold focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M10.076 11c.6 0 1.086.45 1.075 1 0 .55-.474 1-1.075 1C9.486 13 9 12.55 9 12s.475-1 1.076-1zm3.848 0c.601 0 1.076.45 1.076 1s-.475 1-1.076 1c-.59 0-1.075-.45-1.075-1s.474-1 1.075-1zm4.967-9C20.054 2 21 2.966 21 4.163V23l-2.211-1.995-1.245-1.176-1.317-1.25.546 1.943H5.109C3.946 20.522 3 19.556 3 18.359V4.163C3 2.966 3.946 2 5.109 2H18.89zm-3.97 13.713c2.273-.073 3.148-1.596 3.148-1.596 0-3.381-1.482-6.122-1.482-6.122-1.48-1.133-2.89-1.102-2.89-1.102l-.144.168c1.749.546 2.561 1.334 2.561 1.334a8.263 8.263 0 0 0-3.096-1.008 8.527 8.527 0 0 0-2.077.02c-.062 0-.114.011-.175.021-.36.032-1.235.168-2.335.662-.38.178-.607.305-.607.305s.854-.83 2.705-1.376l-.103-.126s-1.409-.031-2.89 1.103c0 0-1.481 2.74-1.481 6.121 0 0 .864 1.522 3.137 1.596 0 0 .38-.472.69-.871-1.307-.4-1.8-1.24-1.8-1.24s.102.074.287.179c.01.01.02.021.041.031.031.022.062.032.093.053.257.147.514.262.75.357.422.168.926.336 1.513.452a7.06 7.06 0 0 0 2.664.01 6.666 6.666 0 0 0 1.491-.451c.36-.137.761-.337 1.183-.62 0 0-.514.861-1.862 1.25.309.399.68.85.68.85z"
+                                    fill="rgba(255,255,255,1)" />
+                            </svg>
+                            <span class="ml-3"> Join us on Discord</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class=" order-1 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
+                <lottie-player src="build/lottie/hero.json" background="transparent" speed="1" loop autoplay>
+                </lottie-player>
+            </div>
+        </div>
+    </section>
+
+    <!-- HERO SECTION ENDS-->
+
+
+
+    <!-- ABOUT SECTION STARTS-->
+
+    <section class="text-gray-400 bg-gray-900 font-body about" id="about">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img src="build/images/about.svg" alt="about">
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-5xl text-3xl mb-4 font-black text-white">About HackMoL3.0</h1>
+                <p class="mb-8 leading-relaxed">
+
+                    HackMol3.0 is a community - focused 36 Hours Long Virtual Hackathon organized by <span
+                        class='text-pink-400'> <strong> DSC NIT Jalandhar</strong></span>, designed especially
+                    for the
+                    needs
+                    of the community itself. Whether you are a beginner or expert ,here is a perfect chance to
+                    show your
+                    skills and witness
+                    a competitive yet inclusive developer community around it.<br> <br>
+
+                    In light of the Covid-19 outbreak, your safety and well being are our primary concern. Hence
+                    all the
+                    activities
+                    Related to HackMol3.0 like workshops,talks will be hosted Virtually.
+                    <br> <br>
+                    The Hackathon is purely based on <span class="font-bold text-pink-400">Open Innovation</span>, teams
+                    can
+                    openly pick up any tracks, themes and problem statement.
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION ENDS-->
+
+    <!-- RULES SECTION STARTS-->
+
+
+    <section class="text-gray-400 font-body bg-gray-900" id="rules">
+        <div class="container px-5 py-12 mx-auto">
+            <div class="flex flex-wrap w-full mb-10 flex-col items-center text-center">
+                <h1 class="title-font sm:text-5xl text-3xl mb-4 font-black text-white">Rules</h1>
+
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            1
+                        </div>
+                        <p class="leading-relaxed text-base">Each team must contain between 2 - 5 members. </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            2
+                        </div>
+                        <p class="leading-relaxed text-base"> The Project must be build entirely during the Duration of
+                            the Hackathon </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            3
+                        </div>
+                        <p class="leading-relaxed text-base">Each participant must adhere to our
+
+                            <a href="https://devfolio.co/code-of-conduct" target="_blank"
+                                class="underline text-pink-400"> Code of Conduct.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            4
+                        </div>
+                        <p class="leading-relaxed text-base">Hackers can work on any technical domain and idea of their
+                            choice. Problem Ideas will also be provided during ideation event. </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            5
+                        </div>
+                        <p class="leading-relaxed text-base mb-6"> For precise details head to here to our
+                            <a href="https://hackmol.devfolio.co/" target="_blank" class="underline text-pink-400">
+                                Devfolio Page. </a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            6
+                        </div>
+                        <p class="leading-relaxed text-base mb-6">Hackathon and Events are Open to and free for Student
+                            Developers.
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            7
+                        </div>
+                        <p class="leading-relaxed text-base ">All the submissions will be reviewed by the organizing
+                            committee & fixed top submissions will qualify for review
+                            by a panel of judges. Finalist teams may be called for special presentation with the Judges.
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            8
+                        </div>
+                        <p class="leading-relaxed text-base mb-12"> Organizers Reserves the final right of decision in
+                            any
+                            case and Rules Regulations can be changed at any point of time.
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-4">
+                            9
+                        </div>
+                        <p class="leading-relaxed text-base mb-16 pb-2">Still have Doubts ? Head over and ask at our
+                            <a href="https://discord.gg/DWCmCGuw" target="_blank" class="underline text-pink-400">
+                                Discord Server. </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- RULES SECTION ENDS-->
+
+
+    <!-- EVENTS SECTION STARTS-->
+    <section class="text-gray-400 bg-gray-900 font-body events" id="events">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex flex-col text-center w-full mb-16">
+                <h2 class="text-s text-pink-400 tracking-widest font-medium title-font mb-1">LEARN AND HACK</h2>
+                <h1 class="sm:text-5xl text-3xl font-black title-font text-white">Events</h1>
+            </div>
+            <div class="container px-5 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="build/images/android.png" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-lg font-medium text-white mb-3">Android Study Jam</h1>
+                                <p class="leading-relaxed mb-3">Android Study Jams are community-organized study groups
+                                    for
+                                    people to learn how to build Android apps in the Kotlin
+                                    programming language, using the curriculum provided by
+                                    Google.
+                                </p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://dsc.community.dev/e/my2sp9" target="_blank"
+                                        class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Coming Soon!
+                                        <!-- <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg> -->
+                                    </a>
+                                    <span
+                                        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none  pr-3 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            class="w-4 h-4 mr-2" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg> TBD
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="build/images/ExploreML.png" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-lg font-medium text-white mb-3">Explore ML</h1>
+                                <p class="leading-relaxed mb-3">An intro to Machine Learning and its career prospects as
+                                    well as several
+                                    real-time applications along with the algorithms
+                                    running behind the same. It will consists of two sessions.
+                                </p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://forms.gle/VZpyACt4sm3NrY6T8" target="_blank"
+                                        class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Coming Soon!
+                                        <!-- <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg> -->
+                                    </a>
+                                    <span
+                                        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none  pr-3 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            class="w-4 h-4 mr-2" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg> TBD
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="build/images/IntroUI_UX.png" alt="blog">
+                            <div class="p-6">
+
+                                <h1 class="title-font text-lg font-medium text-white mb-3">Intro to UI/UX</h1>
+                                <p class="leading-relaxed mb-3">A session focussed upon UI/UX Design and what are
+                                    the career opportunities in this field and how can a
+                                    beginner in this field start with.
+                                    Product Design Techniques and Creative Projects
+                                    display for introduction.
+                                </p>
+                                <div class="flex items-center flex-wrap">
+                                    <a href="https://bit.ly/dscnitjux" target="_blank"
+                                        class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Coming Soon!
+                                        <!-- <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg> -->
+                                    </a>
+                                    <span
+                                        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none  pr-3 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            class="w-4 h-4 mr-2" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg>TBD
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="build/images/CompetitiveProgramming.png" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-lg font-medium text-white mb-3">Intro to Competitive
+                                    Programming and Roadmap to Placements</h1>
+                                <p class="leading-relaxed mb-3">A session focussed on CP , How to begin with
+                                    CP. Roadmap to a Product Based Company - Steps and Challenges.
+                                </p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Coming Soon!
+                                        <!-- <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg> -->
+                                    </a>
+                                    <span
+                                        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none  pr-3 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            class="w-4 h-4 mr-2" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg>TBD
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="build/images/interviewDiary.png" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-lg font-medium text-white mb-3">Interview Experiences</h1>
+                                <p class="leading-relaxed mb-3">A session focussed on people who got
+                                    Internships in tech-giants from NIT Jalandhar.
+                                    Helping Juniors grab their dream company
+                                    with a clear and crisp roadmap.
+                                </p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Coming Soon!
+                                        <!-- <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg> -->
+                                    </a>
+                                    <span
+                                        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none  pr-3 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            class="w-4 h-4 mr-2" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg>TBD
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="build/images/WebdevBootcamp.png" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-lg font-medium text-white mb-3">Web Development Bootcamp</h1>
+                                <p class="leading-relaxed mb-3">A series of Workshops covering HTML ,
+                                    CSS and Javascript concepts along with
+                                    a project building phase.
+                                </p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://forms.gle/P5ZHV4eSW2N1fP6aA" target="_blank"
+                                        class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Register
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                    <span
+                                        class="text-white mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none  pr-3 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            class="w-4 h-4 mr-2" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg> 21 - 27 Jan 2021
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TRACKS SECTION ENDS-->
+
+
+    <!-- SCHEDULE SECTION STARTS-->
+
+
+    <section class="text-gray-400 bg-gray-900 font-body schedule" id="schedule">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+            <div class="flex flex-col text-center w-full mb-8">
+                <h1 class="sm:text-5xl text-3xl font-black title-font mb-4 text-white">Hackathon Schedule
+                </h1>
+            </div>
+            <div class="flex flex-wrap" id="tabs-id">
+                <div class="w-full">
+                    <ul class="flex mb-8 list-none flex-wrap pt-3 pb-4 flex-row">
+                        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            <a class="cursor-pointer text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-pink-600 "
+                                onclick="changeActiveTab(event,'day-1')">
+                                Day 1
+                            </a>
+                        </li>
+                        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            <a class="cursor-pointer text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-400 bg-gray-800"
+                                onclick="changeActiveTab(event,'day-2')">
+                                Day 2
+                            </a>
+                        </li>
+                        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                            <a class=" cursor-pointer text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-400 bg-gray-800"
+                                onclick="changeActiveTab(event,'day-3')">
+                                Day 3
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="relative flex flex-col min-w-0 break-words  w-full mb-6  rounded">
+                        <div class="px-4 py-5 flex-auto">
+                            <div class="tab-content tab-space">
+
+                                <!-- DAY 1 CONTENT GOES HERE -->
+                                <div class="block" id="day-1">
+                                    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative title-font font-medium text-sm">
+                                            1</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">18:00 - 19:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Introduction
+                                                    to Hackathon and Everything!.
+                                                </h2>
+                                                <p class="leading-relaxed">All about what a hackathon is, tips for
+                                                    effective teamwork, how to use Discord, basically everything!.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            2</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">19:00 - 20:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Team
+                                                    Formations and Ideations</h2>
+                                                <p class="leading-relaxed">Lone Wolfs with similar Skillset can come
+                                                    together and form teams, come discuss your idea's with mentors to
+                                                    refine them and also discuss to gather some fresh ideas!.</p>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- DAY 1 CONTENT ENDS HERE -->
+
+                                <!-- DAY 2 CONTENT GOES HERE -->
+                                <div class="hidden" id="day-2">
+                                    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            1</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">10:00 - 11:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl"> Opening
+                                                    Ceremony
+                                                </h2>
+                                                <p class="leading-relaxed">Formal Opening Ceremony of the Hackathon</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            2</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">10:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Hacking
+                                                    Begins!</h2>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            3</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24 text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">17:00 - 19:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Round 1
+                                                    Evaluation</h2>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            4</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400 inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">20:00 - 21:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Resume
+                                                    Building with Merge Intern
+                                                </h2>
+                                                <p class="leading-relaxed">How to make a great resume and apply for
+                                                    internships. </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            5</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400 inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">22:00 - 23:59</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Fun Events
+                                                </h2>
+                                                <p class="leading-relaxed">Casual Hangouts ,Gaming and much more.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- DAY 2 CONTENT ENDS HERE -->
+
+                                <!-- DAY 3 CONTENT GOES HERE -->
+                                <div class="hidden" id="day-3">
+                                    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            1</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">11:00 - 13:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Organizers
+                                                    AMA
+                                                </h2>
+                                                <p class="leading-relaxed">Ask Organizers/Mentors about anything and
+                                                    Everything</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            2</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">16:00 - 18:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Round 2
+                                                    Evaluation</h2>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            3</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24 text-pink-400  inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">19:00 - 19:30</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">How to
+                                                    Present a Great Hack.</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                                        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                        </div>
+                                        <div
+                                            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-pink-500 text-white relative  title-font font-medium text-sm">
+                                            4</div>
+                                        <div
+                                            class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div
+                                                class="flex-shrink-0 w-24 h-24  text-pink-400 inline-flex items-center justify-center">
+                                                <p class="leading-relaxed">22:00</p>
+                                            </div>
+                                            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 class="font-medium title-font text-white mb-1 text-xl">Devfolio
+                                                    Submissions Ends</h2>
+                                                <p class="leading-relaxed"> Final Deadlines for the Submissions on the
+                                                    Devfolio</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- DAY 3 CONTENT ENDS  HERE -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- SCHEDULE SECTION ENDS-->
+
+
+    <!-- PRIZES SECTION STARTS -->
+    <section class="text-gray-400 bg-gray-900 font-body sponsors" id="prizes">
+        <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
+            <div class="flex flex-col text-center w-full mb-8">
+                <h1 class="sm:text-5xl text-3xl font-black title-font mb-4 text-white">Prizes
+                </h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <!-- 1ST PRIZE -->
+                <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+                        <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">1st</h1>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Certificate of Merit
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Internship Opportunities with guidance from Mentors
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Goodies(T-shirts and schwags) for all members
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Free Premium Courses from GeeksforGeeks.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>95% coupon for all members from Coding Blocks.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>For each member a year of Wolfram|One Personal Edition plus a one-year subscription
+                            to Wolfram|Alpha Pro.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Mentor support for upscaling hackathon projects as a product.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Complete access to coding interview prep course from Interview Cake.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Free coupons from Coding Ninjas worth Rs.1200.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Discount Coupons for Merge Intern Bootcamp.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Discount coupon and Schwags from Badelog.in
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Free Mock Interviews for placements.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 2ND PRIZE -->
+
+                <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+                        <h1
+                            class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+                            2nd
+                        </h1>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Certificate of Merit
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Internship Opportunities with guidance from Mentors.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Goodies(T-shirts and schwags) for all members.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Free Premium Courses from GeeksforGeeks.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>85% coupon for all members from Coding Blocks.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>For each member a year of Wolfram|One Personal Edition plus a one-year subscription
+                            to Wolfram|Alpha Pro.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Mentor support for upscaling hackathon projects as a product.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Complete access to coding interview prep course from Interview Cake.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Discount coupons from badelog.in
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Free Mock Interviews for placements.
+                        </p>
+                    </div>
+                </div>
+                <!-- 3RD PRIZE -->
+                <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+                        <h1
+                            class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+                            3rd
+                        </h1>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Certificate of Merit
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Internship Opportunities
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Goodies(T-shirts and schwags) for all members.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Free Premium Courses from GeeksforGeeks.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>75% coupon for all members from Coding Blocks.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>For each member a year of Wolfram|One Personal Edition plus a one-year subscription
+                            to Wolfram|Alpha Pro.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Complete access to coding interview prep course from Interview Cake.
+                        </p>
+                        <p class="flex items-center text-gray-400 mb-6">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Discount Coupons from badelog.in.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PRIZES SECTION ENDS -->
+
+    <section class="text-gray-400 bg-gray-900 font-body sponsors" id="special__prizes">
+        <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
+            <div class="flex flex-col text-center w-full mb-8">
+                <h1 class="sm:text-5xl text-3xl font-black title-font mb-4 text-white">Special Prizes
+                </h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4 ">
+                    <div class="border-2 border-gray-700 p-6 rounded-lg h-full">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="build/images/sponsors/maticD.png" alt="content">
+                        <h3 class="tracking-widest text-pink-400 text-xs font-medium title-font">MATIC</h3>
+                        <p class="leading-relaxed text-base">- ₹10,000 for the best hack built on Ethereum<br />
+                            -₹15,000 for the best hack built on Ethereum + Matic <br />
+                            -Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for
+                            winners!
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border-2 border-gray-700 p-6 rounded-lg h-full">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="build/images/sponsors/portisD.png" alt="content">
+                        <h3 class="tracking-widest text-pink-400 text-xs font-medium title-font">PORTIS</h3>
+                        <p class="leading-relaxed text-base">-₹15,000 (in crypto) for best Dapp built on Portis</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border-2 border-gray-700 p-6 rounded-lg h-full">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="build/images/sponsors/tezosD.png" alt="content">
+                        <h3 class="tracking-widest text-pink-400 text-xs font-medium title-font">TEZOS</h3>
+                        <p class="leading-relaxed text-base">- ₹20,000 for best app built on Tezos<br />
+                            - Continuity Grant opportunity for exceptional builders
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border-2 border-gray-700 p-6 rounded-lg h-full">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="build/images/sponsors/agora.png" alt="content">
+                        <h3 class="tracking-widest text-pink-400 text-xs font-medium title-font">AGORA</h3>
+                        <p class="leading-relaxed text-base">- All participants get swags<br />
+                            - 50$ Prize for winner
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SPONSORS SECTION STARTS -->
+    <section class="text-gray-400 bg-gray-900 font-body sponsors" id="sponsors">
+        <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
+            <div class="flex flex-col text-center w-full mb-8">
+                <h1 class="sm:text-5xl text-3xl font-black title-font mb-4 text-white">Sponsors
+                </h1>
+            </div>
+            <!-- gold sponsor image will go here -->
+            <h2 class="text-lg text-pink-400 tracking-widest font-medium title-font mb-2 text-center">GOLD
+                SPONSOR</h2>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full mb-8">
+                <a href="https://devfolio.co" target="_blank" class="block relative h-48 rounded overflow-hidden ">
+                    <img alt="sponsors" class="object-cover object-center w-full  h-full block "
+                        src="build/images/sponsors/devfolioD.png"><!-- h-full-->
+                </a>
+            </div>
+            <!-- gold sponsor image ends here -->
+
+            <!-- silver sponsor images will go here -->
+            <h2 class="text-lg text-pink-400 tracking-widest font-medium title-font mb-2 text-center">SILVER
+                SPONSORS</h2>
+            <div class="flex flex-wrap ">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full bg-none ">
+                    <a href="https://tezos.com/" target="_blank" class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/tezosD.png">
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://matic.network" target="_blank" class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/maticD.png">
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://www.portis.io" target="_blank" class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/portisD.png">
+                    </a>
+
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://www.codingninjas.com/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/cn.png">
+                    </a>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- 2nd Row-->
+            <div class="flex flex-wrap ">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://codingblocks.com/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/cb.png">
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://www.codechef.com/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/codechef.png">
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://www.interviewcake.com/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/interviewcake.png">
+                    </a>
+
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a href="https://www.geeksforgeeks.org/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/gfg.png">
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- 3rd Row-->
+            <div class="flex flex-wrap ">
+                <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+                    <a href="https://www.agora.io/en/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/agora.png">
+                    </a>
+                </div>
+                <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+                    <a href="https://www.mergeintern.com/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/merge.png">
+                    </a>
+                </div>
+                <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+                    <a href="https://www.wolfram.com/" target="_blank"
+                        class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/wolfram.png">
+                    </a>
+
+                </div>
+                <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+                    <a href="https://badelog.in/" target="_blank" class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/badelog.png">
+                    </a>
+
+                </div>
+                <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+                    <a href="https://badelog.in/" target="_blank" class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="build/images/sponsors/certi.png">
+                    </a>
+
+                </div>
+            </div>
+            <!-- silver sponsor images ends here -->
+        </div>
+        </div>
+    </section>
+
+    <!-- SPONSORS SECTION ENDS -->
+    <!-- TEAM SECTION STARTS -->
+
+    <section class="text-gray-400 bg-gray-900 font-body team" id="team">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-8">
+                <h1 class="sm:text-5xl text-3xl font-black title-font mb-4 text-white">OUR TEAM</h1>
+
+            </div>
+            <div class="flex flex-wrap -m-4 ">
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/arsh.png">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Arsh Goyal</h2>
+                            <h3 class="text-gray-500 ">Lead Organizer</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/arsh_goyal" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/arshgoyal/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/harsh.png">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Harsh Badhai</h2>
+                            <h3 class="text-gray-500 ">Co-Organizer</h3>
+                            <span class="inline-flex">
+
+                                <a href="https://twitter.com/harshbadhai28" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/harshbadhai" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/lakshay.png">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Lakshay Singhal</h2>
+                            <h3 class="text-gray-500 ">Co-Organizer</h3>
+                            <span class="inline-flex">
+
+                                <a href="https://twitter.com/lakshay_08" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/lakshaysinghal08/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/pawann.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Pawan Kholiya</h2>
+                            <h3 class="text-gray-500 ">Co-Organizer</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/PKholiy" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/pawan-kholiya/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4 "
+                            src="build/images/pradyumn.png">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Pradyumn Gupta</h2>
+                            <h3 class="text-gray-500 ">Co-Organizer</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/mr_pradyumn" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/pradyumngupta/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION ENDS -->
+
+
+    <!-- MENTOR SECTION STARTS -->
+
+    <section class="text-gray-400 bg-gray-900 font-body team" id="mentors">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-8">
+                <h1 class="sm:text-5xl text-3xl font-black title-font mb-4 text-white">MENTORS</h1>
+
+            </div>
+            <div class="flex flex-wrap -m-4 ">
+                <div class="p-4 lg:w-1/4 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/mentors/umang.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Umang Sharma</h2>
+                            <h3 class="text-gray-500 ">Microsoft Placed</h3>
+                            <span class="inline-flex">
+                                <a href="https://www.linkedin.com/in/umang-sharma-661423174" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/mentors/kushal.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Kushal Vijay</h2>
+                            <h3 class="text-gray-500 ">Microsoft Placed</h3>
+                            <span class="inline-flex">
+
+                                <a href="https://twitter.com/KushalVijay_" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kushalvijay/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/mentors/rasam.jpeg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Rasam Anand</h2>
+                            <h3 class="text-gray-500 ">UHG Placed</h3>
+
+                            <span class="inline-flex">
+
+                                <a href="https://twitter.com/anandrasam" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/rasamanand22/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4"
+                            src="build/images/mentors/abhinav.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Abhinav Rastogi</h2>
+                            <h3 class="text-gray-500 ">Lowe's Placed</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/abhinavrastogi9" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ar2627" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd Row-->
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4 "
+                            src="build/images/mentors/adamya.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Adamya Mishra</h2>
+                            <h3 class="text-gray-500 ">DSC Lead</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/AdamyaMishra" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/adamya-mishra-810508194" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4 "
+                            src="build/images/mentors/amardeep.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Amardeep Singh</h2>
+                            <h3 class="text-gray-500 ">Cloud Expert</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/s_amardeep9" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/s-amardeep" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4 "
+                            src="build/images/mentors/aditya.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Aditya Manchanda</h2>
+                            <h3 class="text-gray-500 ">ML Expert</h3>
+
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/Aditya_1500" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/aditya-manchanda-1217a617b" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4 "
+                            src="build/images/mentors/praveen.png">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Praveen Agrawal</h2>
+                            <h3 class="text-gray-500 ">Android Expert</h3>
+
+                            <span class="inline-flex">
+                                <a href="https://www.linkedin.com/in/praveen-agrawal-6b3b0b142/" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 lg:w-1/5 md:w-1/2 transition duration-500 ease-in-out transform hover:-translate-y-4">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded w-full h-56 object-cover object-center mb-4 "
+                            src="build/images/mentors/kunal.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-white">Kunal Garg</h2>
+                            <h3 class="text-gray-500 ">Web Expert</h3>
+                            <span class="inline-flex">
+                                <a href="https://twitter.com/Kunal_g_29" target="_blank"
+                                    class="text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kunal-garg-0b199517a" target="_blank"
+                                    class="ml-2 text-gray-600 hover:text-pink-400">
+                                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="0" class="w-6 h-6" viewBox="0 0 24 24">
+                                        <path stroke="none"
+                                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                        </path>
+                                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MENTOR SECTION ENDS -->
+
+
+
+
+
+    <!-- FAQ SECTION STARTS-->
+
+    <section class="text-gray-400 font-body bg-gray-900 faq" id="faq">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-5xl text-3xl font-black title-font mb-2 text-white">Frequently asked questions
+                    </h1>
+                    <p class="leading-relaxed text-gray-400 text-opacity-90">Can't find the answer you are looking for?.
+                        <br />
+                        <a href="mailto:dsc@nitj.ac.in" class="text-pink-400">Reach out to our Team</a> or
+                        <a href="https://discord.gg/cdDBB5YyyJ" class="text-pink-400">Join us on Discord</a>
+                    </p>
+                    </p>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                    <div class="flex items-start  mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+                            <h2 class="text-white text-lg title-font font-medium mb-2">What is a Hackathon and who can
+                                Participate in HackMol3.0 ?</h2>
+                            <p class="leading-relaxed text-base">A Hackathon is an intense event that brings together
+                                designers and
+                                developers along with industry experts to identify
+                                problems and create software solutions, usually within 24-48 hours. If you're a student
+                                developer, we'd love
+                                to have you
+                                at HacMol2.0! Whether that's a undergrad, or graduate, we believe you can get
+                                something out of
+                                the event.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+                            <h2 class="text-white text-lg title-font font-medium mb-2">What can be the size of Team?
+                            </h2>
+                            <p class="leading-relaxed text-base">A team can consist of 2-5 members. Pro Tip: Aim to have
+                                a mix of people with both design and developer skills.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+                            <h2 class="text-white text-lg title-font font-medium mb-2">How much does it Cost ?</h2>
+                            <p class="leading-relaxed text-base">Zero. Zip. Zilch. Nada. Nothing. Admission to
+                                HackWol2.0 is completely free for all student Developers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left  mt-6 sm:mt-0">
+                            <h2 class="text-white text-lg title-font font-medium mb-2">What if I don't have a team or
+                                Idea ?</h2>
+                            <p class="leading-relaxed text-base">Don't worry, most people don’t! We’ll have team
+                                formation and ideation events geared towards helping you find people to
+                                work with. It’s perfectly normal to go around to people, tell them you’re looking for a
+                                team, and ask if you can help
+                                out. You can also show yourself off at #teamup on our Discord Server.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ SECTION ENDS-->
+
+    <!-- CONTACT SECTION STARTS -->
+
+
+    <section class="text-gray-400 bg-gray-900 font-body overflow-hidden contact" id="contact">
+        <div class="container px-5 pb-16 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">For any further queries, reach out to us below!
+                </p>
+                <h1 class="sm:text-6xl text-4xl font-black title-font mb-2 text-white">
+                    <a href="mailto:dsc@nitj.ac.in">dsc@nitj.ac.in </a>
+                </h1>
+                <div class="flex mx-auto overflow-hidden mt-6">
+                    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                        <a href="https://www.facebook.com/DSCNITJ/" target="_blank"
+                            class="text-gray-600 hover:text-pink-400">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-16 h-16" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.instagram.com/dscnitj/" target="_blank"
+                            class="ml-2 text-gray-600 hover:text-pink-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-16 h-16" viewBox="0 0 24 24">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/dscnitj/" target="_blank"
+                            class="ml-2 text-gray-600 hover:text-pink-400">
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="0" class="w-16 h-16" viewBox="0 0 24 24">
+                                <path stroke="none"
+                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                </path>
+                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION ENDS -->
+
+    <!-- FOOTER SECTION STARTS-->
+
+    <footer class="text-gray-400 bg-gray-900 font-body footer" id="footer">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <span class="ml-3 text-xl">HackMoL3.0</span>
+            </a>
+            <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+                ©
+                2021 — HackMoL3.0
+
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a href="https://devfolio.co/code-of-conduct" class="text-gray-500 ml-1 underline " target="_blank"
+                    rel="noopener noreferrer">Code of Conduct</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- FOOTER SECTION ENDS-->
+</body>
+
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+<script type="text/javascript">
+    //to toggle nav menu
+    document.getElementById('nav-toggle').onclick = function () {
+        document.getElementById("nav-content").classList.toggle("hidden");
+    }
+
+    //to change day tabs
+
+    function changeActiveTab(event, tabID) {
+        let element = event.target;
+        while (element.nodeName !== "A") {
+            element = element.parentNode;
+        }
+        ulElement = element.parentNode.parentNode;
+        aElements = ulElement.querySelectorAll("li > a");
+        tabContents = document.getElementById("tabs-id").querySelectorAll(".tab-content > div");
+        for (let i = 0; i < aElements.length; i++) {
+            aElements[i].classList.remove("text-white");
+            aElements[i].classList.remove("bg-pink-600");
+            aElements[i].classList.add("text-gray-400");
+            aElements[i].classList.add("bg-gray-800");
+            tabContents[i].classList.add("hidden");
+            tabContents[i].classList.remove("block");
+        }
+        element.classList.remove("text-gray-400");
+        element.classList.remove("bg-gray-800");
+        element.classList.add("text-white");
+        element.classList.add("bg-pink-600");
+        document.getElementById(tabID).classList.remove("hidden");
+        document.getElementById(tabID).classList.add("block");
+    }
+</script>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyDtoH6yZz_ZMVdxvkHQIqssrXtZ9_Ovpps",
+        authDomain: "hackwol.firebaseapp.com",
+        projectId: "hackwol",
+        storageBucket: "hackwol.appspot.com",
+        messagingSenderId: "282184007484",
+        appId: "1:282184007484:web:385c6564e6482cba582839",
+        measurementId: "G-X5SYKJQ7Z5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+</html>
