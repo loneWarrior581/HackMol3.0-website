@@ -1,4 +1,4 @@
-# Website for HackWoL2.0
+# Website for HackWoL3.0
 
 ## To run locally
 
